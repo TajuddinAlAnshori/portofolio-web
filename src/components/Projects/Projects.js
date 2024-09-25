@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import braineredu from "../../Assets/Projects/braineredu.jpg";
 import alarm from "../../Assets/Projects/alarm.jpg";
+import kalkulator from "../../Assets/Projects/kalkulator-bmi.jpg"
+import design from "../../Assets/Projects/kalkulator-bmi.jpg"
 
 function Projects() {
   return (
@@ -39,6 +41,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kalkulator}
+              isBlog={false}
+              title="Kalkulator BMI"
+              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
+              ghLink="https://github.com/TajuddinAlAnshori/Kalkulator-BMI"
+              demoLink="https://kalkulatorbmi-porto.netlify.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
