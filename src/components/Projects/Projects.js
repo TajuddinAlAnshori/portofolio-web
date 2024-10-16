@@ -5,7 +5,8 @@ import Particle from "../Particle";
 import braineredu from "../../Assets/Projects/braineredu.jpg";
 import alarm from "../../Assets/Projects/alarm.jpg";
 import kalkulator from "../../Assets/Projects/kalkulator-bmi.jpg"
-import design from "../../Assets/Projects/kalkulator-bmi.jpg"
+import crudsederhana from "../../Assets/Projects/crudjs.jpg"
+import guidejakarta from "../../Assets/Projects/guidejakarta.jpg"
 
 function Projects() {
   return (
@@ -49,6 +50,74 @@ function Projects() {
               description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
               ghLink="https://github.com/TajuddinAlAnshori/Kalkulator-BMI"
               demoLink="https://kalkulatorbmi-porto.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crudsederhana}
+              isBlog={false}
+              title="CRUD List Shopping"
+              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
+              ghLink="https://github.com/TajuddinAlAnshori/CRUD-Sederhana-HTML-JS"
+              demoLink="https://crudsimple.vercel.app/"
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crudsederhana}
+              isBlog={false}
+              title="CRUD List Shopping"
+              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
+              ghLink="https://github.com/TajuddinAlAnshori/CRUD-Sederhana-HTML-JS"
+              demoLink="https://crudsimple.vercel.app/"
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crudsederhana}
+              isBlog={false}
+              title="CRUD List Shopping"
+              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
+              ghLink="https://github.com/TajuddinAlAnshori/CRUD-Sederhana-HTML-JS"
+              demoLink="https://crudsimple.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={guidejakarta}
+              isBlog={false}
+              title="Guide Tour DKI Jakarta"
+              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
+              figmaLink="https://crudsimple.vercel.app/"
+              demoLink="https://crudsimple.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={guidejakarta}
+              isBlog={false}
+              title="Guide Tour DKI Jakarta"
+              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
+              figmaLink="https://crudsimple.vercel.app/"
+              demoLink="https://crudsimple.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={guidejakarta}
+              isBlog={false}
+              title="Guide Tour DKI Jakarta"
+              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
+              figmaLink="https://crudsimple.vercel.app/"
+              demoLink="https://crudsimple.vercel.app/"
             />
           </Col>
         </Row>
