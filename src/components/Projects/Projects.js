@@ -6,7 +6,7 @@ import braineredu from "../../Assets/Projects/braineredu.jpg";
 import alarm from "../../Assets/Projects/alarm.jpg";
 import kalkulator from "../../Assets/Projects/kalkulator-bmi.jpg"
 import crudsederhana from "../../Assets/Projects/crudjs.jpg"
-import guidejakarta from "../../Assets/Projects/guidejakarta.jpg"
+// import guidejakarta from "../../Assets/Projects/guidejakarta.jpg"
 
 function Projects() {
   return (
@@ -47,13 +47,25 @@ function Projects() {
               imgPath={kalkulator}
               isBlog={false}
               title="Kalkulator BMI"
-              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
+              description="The BMI Calculator is a simple application that allows users to calculate their Body Mass Index (BMI) based on their height and weight. With a modern interface and clean design, the app makes it easy for users to quickly assess their health status."
               ghLink="https://github.com/TajuddinAlAnshori/Kalkulator-BMI"
-              demoLink="https://kalkulatorbmi-porto.netlify.app/"
+              demoLink="https://kalkulator-bmi-two.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crudsederhana}
+              isBlog={false}
+              title="CRUD List Shopping"
+              description=" List Shopping is a web application designed to help users manage their shopping lists. It features full CRUD (Create, Read, Update, Delete) functionality, allowing users to efficiently organize and edit their items. The user-friendly interface and intuitive design make it a practical tool for everyday use."
+              ghLink="https://github.com/TajuddinAlAnshori/CRUD-Sederhana-HTML-JS"
+              demoLink="https://crudsimple.vercel.app/"
+            />
+          </Col>
+
+          
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crudsederhana}
               isBlog={false}
@@ -76,18 +88,6 @@ function Projects() {
             />
           </Col>
 
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={crudsederhana}
-              isBlog={false}
-              title="CRUD List Shopping"
-              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
-              ghLink="https://github.com/TajuddinAlAnshori/CRUD-Sederhana-HTML-JS"
-              demoLink="https://crudsimple.vercel.app/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={guidejakarta}
@@ -119,7 +119,7 @@ function Projects() {
               figmaLink="https://crudsimple.vercel.app/"
               demoLink="https://crudsimple.vercel.app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
