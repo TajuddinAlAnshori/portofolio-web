@@ -6,7 +6,7 @@ import braineredu from "../../Assets/Projects/braineredu.jpg";
 import alarm from "../../Assets/Projects/alarm.jpg";
 import kalkulator from "../../Assets/Projects/kalkulator-bmi.jpg"
 import crudsederhana from "../../Assets/Projects/crudjs.jpg"
-// import guidejakarta from "../../Assets/Projects/guidejakarta.jpg"
+import guidejakarta from "../../Assets/Projects/guidejakarta.jpg"
 
 function Projects() {
   return (
@@ -28,6 +28,16 @@ function Projects() {
               description="Brainer Education is an online learning platform offering both free and paid courses through videos and exercises. Users can easily learn and explore their interests without missing out on opportunities."
               ghLink="https://github.com/FE-14-Skilvul"
               demoLink="https://finalproject-braineredu-fe14.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={braineredu}
+              isBlog={false}
+              title="Brainer Education Design Thinking"
+              description="Brainer Education is an online learning platform offering both free and paid courses through videos and exercises. Users can easily learn and explore their interests without missing out on opportunities."
+              figmaLink="https://www.figma.com/design/KMq3Z0PT3OenbAMPz07gZv/Fe-14---Brainer-Education?node-id=169-45417&t=Q3uw2SryMi6krEn7-1"
             />
           </Col>
 
@@ -64,62 +74,15 @@ function Projects() {
             />
           </Col>
 
-          
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={crudsederhana}
-              isBlog={false}
-              title="CRUD List Shopping"
-              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
-              ghLink="https://github.com/TajuddinAlAnshori/CRUD-Sederhana-HTML-JS"
-              demoLink="https://crudsimple.vercel.app/"
-            />
-          </Col>
-
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={crudsederhana}
-              isBlog={false}
-              title="CRUD List Shopping"
-              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
-              ghLink="https://github.com/TajuddinAlAnshori/CRUD-Sederhana-HTML-JS"
-              demoLink="https://crudsimple.vercel.app/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={guidejakarta}
               isBlog={false}
               title="Guide Tour DKI Jakarta"
-              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
-              figmaLink="https://crudsimple.vercel.app/"
-              demoLink="https://crudsimple.vercel.app/"
+              description="Guide Tour DKI Jakarta is an interactive travel guide app designed to make exploring destinations in DKI Jakarta easier. With a modern interface and attractive design, this app provides comprehensive information about tourist attractions, user reviews, and nearby locations. The personalized and intuitive search feature helps users quickly find their favorite spots, making the journey more enjoyable and organized"
+              figmaLink="https://www.figma.com/proto/UlkgBBf1NhidNhWK7V5Dxo/WISATA-TOUR-GUIDE-DKI-JAKARTA?page-id=0%3A1&node-id=1-2&p=f&viewport=291%2C573%2C0.34&t=xtrqEtnlYKj8Dm7P-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={guidejakarta}
-              isBlog={false}
-              title="Guide Tour DKI Jakarta"
-              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
-              figmaLink="https://crudsimple.vercel.app/"
-              demoLink="https://crudsimple.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={guidejakarta}
-              isBlog={false}
-              title="Guide Tour DKI Jakarta"
-              description="Alarm Panic is a simple web app displaying Waktu Indonesia Barat (WIB) with a customizable alarm feature. The modern interface and vibrant design make time management easy and visually appealing."
-              figmaLink="https://crudsimple.vercel.app/"
-              demoLink="https://crudsimple.vercel.app/"
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
